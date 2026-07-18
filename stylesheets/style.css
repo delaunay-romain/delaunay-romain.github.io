@@ -1,0 +1,16 @@
+:root{
+	--headerheight:70px;
+	--color1:rgb(128, 193, 255);
+	--color2:rgb(131, 182, 236);
+	--text-color:rgb(255,255,255);
+	--accent-color:rgb(45,45,255);
+}
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size:20px;
+	font-family: Roboto, Segoe UI, Tahoma, sans-serif;
+}
+
