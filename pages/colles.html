@@ -4,35 +4,16 @@
 <head>
 	<link rel='stylesheet' href='../stylesheets/headerstyle.css'>
 	<link rel='stylesheet' href='../stylesheets/style.css'>
+	<script src='../utils/jquery-4.0.0.min.js'></script>
 </head>
+
 <body>
-<nav>
-	<!---
-	logo part
-	--->
-	<input type='checkbox' id='sidebar-active'>
-	<label class='sidebar-button' for='sidebar-active'>
-		<img src='../img/logo.svg' >
-	</label>
+	
+	<!--- HEADER --->
+	<div id='dynamic-header'> </div>
 
-
-	<p style='display:flex; flex-shrink:0; padding:0 20px 0 20px ; align-items:center; font-weight:700; font-size:30px; justify-content:flex-start;'> Romain Delaunay </p>
-	<!---
-	use only for mobile view, make sure that 
-	whenever we click anywhere except the sidebar
-	it closes itself
-	--->
-	<label class='background' for='sidebar-active'></label>
-	<div class='link-container'>
-		<a href='../pages/index.html'> Accueil </a>
-		<a href='../pages/cours.html'> Cours </a>
-		<a href='../pages/colles.html'> Colles </a>
-		<a href='../pages/agregation.html'> Agregation </a>
-		<a href='../pages/utils.html'> Liens Utiles </a>
-	</div>
-
-</nav>
-
-
+	<script>$("#dynamic-header").load("header.html #header");</script>
+	<!--- END HEADER --->
+	
 </body>
 </html>
