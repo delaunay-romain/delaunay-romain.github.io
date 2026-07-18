@@ -2,79 +2,37 @@
 <html>
 
 <head>
-	<title>Romain Delaunay - Mathematiques</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="logo.png">
-
+	<link rel='stylesheet' href='../stylesheets/headerstyle.css'>
+	<link rel='stylesheet' href='../stylesheets/style.css'>
 </head>
-
 <body>
+<nav>
 	<!---
-		PARTIE EN-TETE
+	logo part
 	--->
-	<div class="header">
-		
-	    <div style='display:inline-block; padding-right:10px; border:solid; border-width:0px; border-right-width:5px; border-color:#96caff; '>  
-			<a class='icon' href='index.html' id='iconpic'>
-			</a>
-			<p style="
-			display:inline-block;
-			font-weight:700;
-			font-size:26px;
-			margin:0px;
-			padding-left:10px;
-			padding-right:10px;
-			text-height:60px;
-			vertical-align:middle;
-			color:black;
-			">
-			Romain Delaunay
-			</p>
+	<input type='checkbox' id='sidebar-active'>
+	<label class='sidebar-button' for='sidebar-active'>
+		<img src='../img/logo.svg' >
+	</label>
 
 
-		</div>
-			
-
-		<div class='choice-menu-box' >  
-			
-			<a class='choice-text' href='index.html'> Accueil </a>
-
-
-		</div>
-
-	   	 <div class='choice-menu-box' >  
-			
-			<a class='choice-text' href='cours.html'> Cours </a>
-
-
-		</div>
-
-		<div class='choice-menu-box' >  
-			
-			<a class='choice-text' href='colles.html' > Colles </a>
-
-		</div>
-
-		<div class='choice-menu-box' >  
-			
-			<a class='choice-text' href='agreg.html' > Agregation </a>
-
-		</div>
-
-
-
+	<p style='display:flex; flex-shrink:0; padding:0 20px 0 20px ; align-items:center; font-weight:700; font-size:30px; justify-content:flex-start;'> Romain Delaunay </p>
+	<!---
+	use only for mobile view, make sure that 
+	whenever we click anywhere except the sidebar
+	it closes itself
+	--->
+	<label class='background' for='sidebar-active'></label>
+	<div class='link-container'>
+		<a href='../pages/index.html'> Accueil </a>
+		<a href='../pages/cours.html'> Cours </a>
+		<a href='../pages/colles.html'> Colles </a>
+		<a href='../pages/agregation.html'> Agregation </a>
+		<a href='../pages/utils.html'> Liens Utiles </a>
 	</div>
 
-	<!---
-			SIDEBAR
-	--->
+</nav>
 
 
-	<!---
-			CONTENU
-	--->
-	
 </body>
-
-
 </html>
