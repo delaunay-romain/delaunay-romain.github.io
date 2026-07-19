@@ -36,7 +36,7 @@ body{
 }
 
 .page *{
-	padding:10px;
+	padding:14px;
 	line-height:1.6;
 }
 
@@ -51,6 +51,9 @@ body{
 }
 
 @media(max-width:780px){
+	html{
+		font-size:16px;
+	}
 	.page{
 		width:100%;
 	}
