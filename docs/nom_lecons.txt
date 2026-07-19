@@ -1,0 +1,68 @@
+101 - Groupe opérant sur un ensemble. Exemples et applications.
+102 - Groupe des nombres complexes de module 1. Racines de l'unité. Applications.
+103 - Conjugaison dans un groupe. Exemples de sous-groupes distingués et de groupes quotients. Applications.
+104 - Groupes finis. Exemples et applications.
+105 - Groupe des permutations d'un ensemble fini. Applications.
+106 - Groupe linéaire d'un espace vectoriel de dimension finie E, sous-groupes de GL(E). Applications.
+108 - Exemples de parties génératrices d'un groupe. Applications.
+120 - Anneaux ZnZ. Applications.
+121 - Nombres premiers. Applications.
+122 - Anneaux principaux. Exemples et applications
+123 - Corps finis. Applications
+125 - Extensions de corps. Exemples et applications
+127 - Exemples de nombres remarquables. Exemples d'anneaux de nombres remarquables. Applications
+141 - Polynômes irréductibles à une indeterminée. Corps de rupture. Exemples et applications
+142 - PGCD et PPCM, algorithmes de calcul. Applications.
+144 - Racines d’un polynôme. Fonctions symétriques élémentaires. Exemples et applications.
+148 - Dimension d'un espace vectoriel (on se limitera au cas de la dimension finie). Rang. Exemples et applications.
+149 -Déterminant. Exemples et applications
+150  - Polynômes d'endomorphisme en dimension finie. Réduction d'un endomorphisme en dimension finie. Applications.
+151 - Sous-espaces stables par un endomorphisme ou une famille
+152 - Endomorphismes diagonalisables en dimension finie.
+153 - Valeurs propres, vecteurs propres. Calculs exacts ou approchés d'éléments propres. Applications.
+155 - Exponentielle de matrices. Applications.
+156 - Endomorphismes trigonalisables. Endomorphismes nilpotents.
+157 - Matrices symétriques réelles. Matrices hermitiennes.
+158 - Endomorphismes remarquables d'un espace vectoriel euclidien (de dimension finie)
+159 - Formes linéaires et dualité en dimension finie. Exemples et applications.
+161 - Espaces vectoriels et espaces affines euclidiens : distances, isométries
+162 - Systèmes d'équations linéaires, opérations élémentaires, aspects algorithmiques et conséquences théoriques
+170 - Formes quadratiques sur un espace vectoriel de dimension finie. Orthogonalité. Applications
+171 - Formes quadratiques réelles. Coniques. Exemples et applications.
+181 - Convexité dans Rn. Applications en algèbre et en géométrie.
+190 - Méthodes combinatoires, problèmes de dénombrement
+191 - Exemples d'utilisation de techniques d'algèbres en géométrie.
+201 - Espaces de fonctions. Exemples et applications
+203 - Utilisation de la notion de compacité
+204 - Connexité. Exemples d'applications
+205 - Espaces complets. Exemples et applications.
+206 - Utilisation de la notion de dimension finie en analyse
+208 - Espaces vectoriels normés, applications linéaires continues. Exemples.
+209 - Approximation d'une fonction par des fonctions régulières. Exemples et applications.
+213 - Espaces de Hilbert. Exemples d'applications
+214 - Théorème d'inversion local, théorème des fonctions implicites. Illustrations en analyse et en géométrie.
+215 - Fonctions différentiables sur un ouvert de Rn. Exemples et applications
+218 - Formules de Taylor. Exemples et applications
+219 - Extremums : existence, caractérisation, recherche. Exemples et applications
+220 - Illustrer par des exemples la théorie des EDO. Exemples et applications
+221 - Équations différentielles linéaires. Systèmes d'équations différentielles linéaires. Exemples et applications
+223 - Suites réelles et complexes. Convergence, valeurs d'adhérence. Exemples et applications
+224 - Exemples de développements asymptotiques de suites et de fonctions
+226 - Suites vectorielles et réelles définies par une relation de récurrence
+228 - Continuité, dérivabilité des fonctions d’une variable réelle. Exemples et applications
+229 - Fonctions monotones. Fonctions convexes. Exemples et applications
+230 - Séries de nombres réels et complexes
+234 - Fonctions et espaces de fonctions Lebesgue-intégrables
+235 - Problèmes d'inversion de sybole en analyse
+236 - Méthodes de calcul d'intégrales
+239 - Fonctions définies par une intégrale dépendant d'un paramètre. Exemples et applications
+241 - Suites et séries de fonctions. Exemples et contre-exemples
+243 - Séries entières et propriétés de la somme. Exemples et applications
+245 - Fonctions holomorphes et méromorphes sur un ouvert de C. Exemples et applications
+246 - Séries de Fourier. Exemples et applications
+250 - Transformation de Fourier. Applications
+253 - Utilisation de la notion de convexité en analyse.
+261 - Loi d'une variable aléatoire : Caractérisations, exemples, applications.
+262 - Convergence d'une suite de variables aléatoires. Théorèmes limites. Exemples et applications
+264 - Variables aléatoires discrètes. Exemples et Applications
+266 - Utilisation de la notion d'indépendance en probabilités

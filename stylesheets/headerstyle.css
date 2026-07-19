@@ -51,6 +51,7 @@ nav .sidebar-button{
 
 .sidebar-button img{
 	height:90%;
+	display:none;
 }
 
 @media(max-width:780px){
@@ -60,6 +61,7 @@ nav .sidebar-button{
 
 	.sidebar-button img{
 		transition: transform 0.8s ease-out;
+		display:flex;
 	}
 
 	.link-container{
