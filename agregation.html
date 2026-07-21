@@ -7,7 +7,15 @@
 	<link rel='icon' href='../img/logo.png'>
 	<link rel='stylesheet' href='../stylesheets/headerstyle.css'>
 	<link rel='stylesheet' href='../stylesheets/style.css'>
-	<script src='../utils/jquery-4.0.0.min.js'></script>
+
+  <script>
+    function change_tab(id)
+    {
+      //modifie le contenu du bloc vide par la page sélectionnée
+      document.getElementById('page_content').innerHTML=document.getElementById(id+"_desc").innerHTML; 
+    }
+  </script>
+
 </head>
 
 <body>
@@ -15,6 +23,7 @@
 	<!--- HEADER --->
 	<div id='dynamic-header'> </div>
 
+  <script src='../utils/jquery-4.0.0.min.js'></script>
 	<script>$("#dynamic-header").load("header.html #header");</script>
 	<!--- END HEADER --->
 
@@ -27,80 +36,32 @@
 	<h1>
 	Agrégation
 	</h1>
-
-	<ul>
-
-		<li> <a href='../docs/lecons_agreg/101.pdf' target='_blank'> 101 - Groupe opérant sur un ensemble. Exemples et applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/102.pdf' target='_blank'> 102 - Groupe des nombres complexes de module 1. Racines de l'unité. Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/103.pdf' target='_blank'> 103 - Conjugaison dans un groupe. Exemples de sous-groupes distingués et de groupes quotients. Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/104.pdf' target='_blank'> 104 - Groupes finis. Exemples et applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/105.pdf' target='_blank'> 105 - Groupe des permutations d'un ensemble fini. Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/106.pdf' target='_blank'> 106 - Groupe linéaire d'un espace vectoriel de dimension finie E, sous-groupes de GL(E). Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/108.pdf' target='_blank'> 108 - Exemples de parties génératrices d'un groupe. Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/120.pdf' target='_blank'> 120 - Anneaux ZnZ. Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/121.pdf' target='_blank'> 121 - Nombres premiers. Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/122.pdf' target='_blank'> 122 - Anneaux principaux. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/123.pdf' target='_blank'> 123 - Corps finis. Applications </a></li>
-		<li> <a href='../docs/lecons_agreg/125.pdf' target='_blank'> 125 - Extensions de corps. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/127.pdf' target='_blank'> 127 - Exemples de nombres remarquables. Exemples d'anneaux de nombres remarquables. Applications </a></li>
-		<li> <a href='../docs/lecons_agreg/141.pdf' target='_blank'> 141 - Polynômes irréductibles à une indeterminée. Corps de rupture. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/142.pdf' target='_blank'> 142 - PGCD et PPCM, algorithmes de calcul. Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/144.pdf' target='_blank'> 144 - Racines d’un polynôme. Fonctions symétriques élémentaires. Exemples et applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/148.pdf' target='_blank'> 148 - Dimension d'un espace vectoriel (on se limitera au cas de la dimension finie). Rang. Exemples et applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/149.pdf' target='_blank'> 149 -Déterminant. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/150.pdf' target='_blank'> 150  - Polynômes d'endomorphisme en dimension finie. Réduction d'un endomorphisme en dimension finie. Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/151.pdf' target='_blank'> 151 - Sous-espaces stables par un endomorphisme ou une famille </a></li>
-		<li> <a href='../docs/lecons_agreg/152.pdf' target='_blank'> 152 - Endomorphismes diagonalisables en dimension finie. </a></li>
-		<li> <a href='../docs/lecons_agreg/153.pdf' target='_blank'> 153 - Valeurs propres, vecteurs propres. Calculs exacts ou approchés d'éléments propres. Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/155.pdf' target='_blank'> 155 - Exponentielle de matrices. Applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/156.pdf' target='_blank'> 156 - Endomorphismes trigonalisables. Endomorphismes nilpotents. </a></li>
-		<li> <a href='../docs/lecons_agreg/157.pdf' target='_blank'> 157 - Matrices symétriques réelles. Matrices hermitiennes. </a></li>
-		<li> <a href='../docs/lecons_agreg/158.pdf' target='_blank'> 158 - Endomorphismes remarquables d'un espace vectoriel euclidien (de dimension finie) </a></li>
-		<li> <a href='../docs/lecons_agreg/159.pdf' target='_blank'> 159 - Formes linéaires et dualité en dimension finie. Exemples et applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/161.pdf' target='_blank'> 161 - Espaces vectoriels et espaces affines euclidiens : distances, isométries </a></li>
-		<li> <a href='../docs/lecons_agreg/162.pdf' target='_blank'> 162 - Systèmes d'équations linéaires, opérations élémentaires, aspects algorithmiques et conséquences théoriques </a></li>
-		<li> <a href='../docs/lecons_agreg/170.pdf' target='_blank'> 170 - Formes quadratiques sur un espace vectoriel de dimension finie. Orthogonalité. Applications </a></li>
-		<li> <a href='../docs/lecons_agreg/171.pdf' target='_blank'> 171 - Formes quadratiques réelles. Coniques. Exemples et applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/181.pdf' target='_blank'> 181 - Convexité dans Rn. Applications en algèbre et en géométrie. </a></li>
-		<li> <a href='../docs/lecons_agreg/190.pdf' target='_blank'> 190 - Méthodes combinatoires, problèmes de dénombrement </a></li>
-		<li> <a href='../docs/lecons_agreg/191.pdf' target='_blank'> 191 - Exemples d'utilisation de techniques d'algèbres en géométrie. </a></li>
-		<li> <a href='../docs/lecons_agreg/201.pdf' target='_blank'> 201 - Espaces de fonctions. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/203.pdf' target='_blank'> 203 - Utilisation de la notion de compacité </a></li>
-		<li> <a href='../docs/lecons_agreg/204.pdf' target='_blank'> 204 - Connexité. Exemples d'applications </a></li>
-		<li> <a href='../docs/lecons_agreg/205.pdf' target='_blank'> 205 - Espaces complets. Exemples et applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/206.pdf' target='_blank'> 206 - Utilisation de la notion de dimension finie en analyse </a></li>
-		<li> <a href='../docs/lecons_agreg/208.pdf' target='_blank'> 208 - Espaces vectoriels normés, applications linéaires continues. Exemples. </a></li>
-		<li> <a href='../docs/lecons_agreg/209.pdf' target='_blank'> 209 - Approximation d'une fonction par des fonctions régulières. Exemples et applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/213.pdf' target='_blank'> 213 - Espaces de Hilbert. Exemples d'applications </a></li>
-		<li> <a href='../docs/lecons_agreg/214.pdf' target='_blank'> 214 - Théorème d'inversion local, théorème des fonctions implicites. Illustrations en analyse et en géométrie. </a></li>
-		<li> <a href='../docs/lecons_agreg/215.pdf' target='_blank'> 215 - Fonctions différentiables sur un ouvert de Rn. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/218.pdf' target='_blank'> 218 - Formules de Taylor. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/219.pdf' target='_blank'> 219 - Extremums : existence, caractérisation, recherche. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/220.pdf' target='_blank'> 220 - Illustrer par des exemples la théorie des EDO. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/221.pdf' target='_blank'> 221 - Équations différentielles linéaires. Systèmes d'équations différentielles linéaires. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/223.pdf' target='_blank'> 223 - Suites réelles et complexes. Convergence, valeurs d'adhérence. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/224.pdf' target='_blank'> 224 - Exemples de développements asymptotiques de suites et de fonctions </a></li>
-		<li> <a href='../docs/lecons_agreg/226.pdf' target='_blank'> 226 - Suites vectorielles et réelles définies par une relation de récurrence </a></li>
-		<li> <a href='../docs/lecons_agreg/228.pdf' target='_blank'> 228 - Continuité, dérivabilité des fonctions d’une variable réelle. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/229.pdf' target='_blank'> 229 - Fonctions monotones. Fonctions convexes. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/230.pdf' target='_blank'> 230 - Séries de nombres réels et complexes </a></li>
-		<li> <a href='../docs/lecons_agreg/234.pdf' target='_blank'> 234 - Fonctions et espaces de fonctions Lebesgue-intégrables </a></li>
-		<li> <a href='../docs/lecons_agreg/235.pdf' target='_blank'> 235 - Problèmes d'inversion de sybole en analyse </a></li>
-		<li> <a href='../docs/lecons_agreg/236.pdf' target='_blank'> 236 - Méthodes de calcul d'intégrales </a></li>
-		<li> <a href='../docs/lecons_agreg/239.pdf' target='_blank'> 239 - Fonctions définies par une intégrale dépendant d'un paramètre. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/241.pdf' target='_blank'> 241 - Suites et séries de fonctions. Exemples et contre-exemples </a></li>
-		<li> <a href='../docs/lecons_agreg/243.pdf' target='_blank'> 243 - Séries entières et propriétés de la somme. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/245.pdf' target='_blank'> 245 - Fonctions holomorphes et méromorphes sur un ouvert de C. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/246.pdf' target='_blank'> 246 - Séries de Fourier. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/250.pdf' target='_blank'> 250 - Transformation de Fourier. Applications </a></li>
-		<li> <a href='../docs/lecons_agreg/253.pdf' target='_blank'> 253 - Utilisation de la notion de convexité en analyse. </a></li>
-		<li> <a href='../docs/lecons_agreg/261.pdf' target='_blank'> 261 - Loi d'une variable aléatoire : Caractérisations, exemples, applications. </a></li>
-		<li> <a href='../docs/lecons_agreg/262.pdf' target='_blank'> 262 - Convergence d'une suite de variables aléatoires. Théorèmes limites. Exemples et applications </a></li>
-		<li> <a href='../docs/lecons_agreg/264.pdf' target='_blank'> 264 - Variables aléatoires discrètes. Exemples et Applications </a></li>
-		<li> <a href='../docs/lecons_agreg/266.pdf' target='_blank'> 266 - Utilisation de la notion d'indépendance en probabilités </a></li>
-	</ul>
+  
+  <div class='tab'>
+    <button class='tab_button' id='lecon_algebre' onclick="change_tab(this.id);">Leçons d'Algèbre</button>
+    <button class='tab_button' id='lecon_analyse' onclick="change_tab(this.id);">Leçons d'Analyse</button>  
+    <button class='tab_button' id='dev_analyse' onclick="change_tab(this.id);">Développements d'Analyse</button>  
+    <button class='tab_button' id='dev_algebre' onclick="change_tab(this.id);">Développements d'Algèbre</button>  
+  </div>
 
 
+  <!---Liste des pages cachées a afficher grace au menu tab--->
+  <div class='hidden_desc' id='lecon_algebre_desc'> </div>
+  <script>$("#lecon_algebre_desc").load("subpages/lecons_algebre.html");</script>
+
+
+  <div class='hidden_desc' id='lecon_analyse_desc'> </div>
+  <script>$("#lecon_analyse_desc").load("subpages/lecons_analyse.html");</script>
+
+  <div class='hidden_desc' id='dev_analyse_desc'> </div>
+  <script>$("#dev_analyse_desc").load("subpages/devs_analyse.html");</script>
+
+  <div class='hidden_desc' id='dev_algebre_desc'> </div>
+  <script>$("#dev_algebre_desc").load("subpages/devs_algebre.html");</script>
+
+  <div id="page_content">
+    <!--- Empty to be filled with script  --->
+  </div>
 	<!--- END CONTENT --->
 	</div>
 	</div>
